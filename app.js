@@ -1,12 +1,19 @@
 let express = require("express")
 let app = express()
 
+
 app.get("/", (req, res) => {
 	res.send("Diego")
 })
 
+
 app.get("/prueba", (req, res) => {
 	res.send("<h1>Prueba</h1>")
+})
+
+
+app.get("/prueba2", (req, res) => {
+	res.send("<h1>Prueba 2</h1>")
 })
 
 
